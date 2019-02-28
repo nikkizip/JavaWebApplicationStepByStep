@@ -12,16 +12,8 @@
 
 
 
-  <role rolename="manager-gui"/>
-
-  <role rolename="manager-script"/>
-
-  <user username="tomcat" password="password" roles="manager-gui"/>
-
-  <user username="alice" password="password" roles="manager-gui,manager-script"/>
-
-  <user username="bob" password="password" roles="manager-script"/>
-
+<role rolename="manager-gui"/>
+<user username="tomcat" password="tomcat" roles="manager-gui"/>
 
 
 </tomcat-users>
