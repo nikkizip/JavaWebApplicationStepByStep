@@ -30,5 +30,5 @@ spec:
   - protocol: TCP
     port: 8080
     targetport: 8080
-    nodeport: 31000
+    nodeport: 32000
   type: nodeport
